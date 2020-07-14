@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="15" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="408" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+    <groups>
+      <group name="smokeTest">
+        <method signature="TestNGConcepts.dashboard()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="dashboard" class="tests.TestNGConcepts"/>
+        <method signature="TestNGConcepts.customerPage()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="customerPage" class="tests.TestNGConcepts"/>
+        <method signature="TestNGConcepts.logout()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="logout" class="tests.TestNGConcepts"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="408" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+      <class name="tests.TestNGConcepts">
+        <test-method status="PASS" signature="dashboard()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="dashboard" duration-ms="42" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method status="FAIL" signature="signIn()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="signIn" duration-ms="16" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [collage] but found [school]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [collage] but found [school]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at tests.TestNGConcepts.signIn(TestNGConcepts.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="6" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="6" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="4" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="4" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="8" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="15" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="5" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="7" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="10" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="checkTitle" duration-ms="12" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="customerPage()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="customerPage" duration-ms="3" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerPage -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="logout" duration-ms="5" started-at="2020-07-08T00:26:49Z" finished-at="2020-07-08T00:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="homePage()[pri:0, instance:tests.TestNGConcepts@7cd62f43]" name="homePage" duration-ms="0" started-at="2020-07-08T00:26:49Z" depends-on-methods="tests.TestNGConcepts.signIn" finished-at="2020-07-08T00:26:49Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNGConcepts.homePage()[pri:0, instance:tests.TestNGConcepts@7cd62f43] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNGConcepts.homePage()[pri:0, instance:tests.TestNGConcepts@7cd62f43] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+      </class> <!-- tests.TestNGConcepts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
